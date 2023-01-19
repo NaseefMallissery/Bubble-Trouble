@@ -1,0 +1,48 @@
+[3:25:41 pm]: Spawning C:\Users\User\Downloads\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[3:25:41 pm]: ..  in C:\Users\User\Desktop\bubble_truoble
+[3:25:41 pm]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[3:25:41 pm]: PID: 3884
+[3:25:46 pm]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":14432}}]
+[3:25:46 pm]: <== [{"event":"app.start","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","deviceId":"emulator-5554","directory":"C:\\Users\\User\\Desktop\\bubble_truoble","supportsRestart":true,"launchMode":"run"}}]
+[3:25:46 pm]: <== Launching lib\main.dart on sdk gphone x86 in debug mode...
+[3:25:47 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[3:26:22 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"0","progressId":null,"finished":true}}]
+[3:26:23 pm]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[3:26:24 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app.apk...","finished":false}}]
+[3:26:25 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"1","progressId":null,"finished":true}}]
+[3:26:35 pm]: <== [{"event":"app.debugPort","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","port":50378,"wsUri":"ws://127.0.0.1:50378/99hITRRB1v4=/ws","baseUri":"file:///data/user/0/com.example.bubble_truoble/code_cache/bubble_truobleMIBIJI/bubble_truoble/"}}]
+[3:26:35 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"2","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[3:26:35 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"2","progressId":null,"finished":true}}]
+[3:26:35 pm]: <== [{"event":"app.started","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df"}}]
+[3:27:15 pm]: ==> [{"id":"1","method":"app.restart","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","fullRestart":true,"pause":true,"reason":"manual"}}]
+[3:27:15 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[3:27:16 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"4","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[3:27:19 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"4","progressId":null,"finished":true}}]
+[3:27:20 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"3","progressId":"hot.restart","finished":true}}]
+[3:27:20 pm]: <== Restarted application in 4,524ms.
+[3:27:20 pm]: <== [{"id":"1","result":{"code":0,"message":""}}]
+[3:30:53 pm]: ==> [{"id":"2","method":"app.restart","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[3:30:53 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[3:30:54 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"6","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[3:30:54 pm]: lib/screens/home_screen/view/home_screen.dart:62:41: Error: Too few positional arguments: 1 required, 0 given.
+[3:30:54 pm]: value.fireRocket();
+                                        ^
+[3:30:54 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"6","progressId":null,"finished":true}}]
+[3:30:54 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"5","progressId":"hot.reload","finished":true}}]
+[3:30:54 pm]: <== [{"id":"2","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[3:31:03 pm]: ==> [{"id":"3","method":"app.restart","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[3:31:03 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[3:31:03 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"8","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[3:31:03 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"8","progressId":null,"finished":true}}]
+[3:31:05 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"7","progressId":"hot.reload","finished":true}}]
+[3:31:05 pm]: <== Reloaded 3 of 608 libraries in 1,400ms (compile: 49 ms, reload: 353 ms, reassemble: 866 ms).
+[3:31:05 pm]: <== [{"id":"3","result":{"code":0,"message":"Reloaded 3 of 608 libraries"}}]
+[3:34:35 pm]: ==> [{"id":"4","method":"app.restart","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[3:34:36 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[3:34:36 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"10","progressId":null,"message":"Syncing files to device sdk gphone x86...","finished":false}}]
+[3:34:36 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"10","progressId":null,"finished":true}}]
+[3:34:36 pm]: <== [{"event":"app.progress","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df","id":"9","progressId":"hot.reload","finished":true}}]
+[3:34:36 pm]: <== Reloaded 3 of 608 libraries in 912ms (compile: 41 ms, reload: 320 ms, reassemble: 431 ms).
+[3:34:36 pm]: <== [{"id":"4","result":{"code":0,"message":"Reloaded 3 of 608 libraries"}}]
+[4:55:59 pm]: ==> [{"id":"5","method":"app.stop","params":{"appId":"d7fdeb16-9acc-4bfc-b4ad-7902d27a29df"}}]
+[4:56:01 pm]: Process C:\Users\User\Downloads\flutter\bin\flutter.bat terminated! 1, null
